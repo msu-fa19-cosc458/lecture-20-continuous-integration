@@ -1,6 +1,6 @@
-# lecture-19-unittests-review
+# lecture-20-continuous integration
 
-Unit test review
+Practicing continuous integration with our unit tests! (these instructions should look familiar!)
 
 ## Run the tests
 

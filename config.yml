@@ -1,4 +1,5 @@
 version: 2
-    test:
-        override:
-            - python -m tests/unit_tests
+jobs:
+    build:
+        steps:
+            - run: python -m tests/unit_tests

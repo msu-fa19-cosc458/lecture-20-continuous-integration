@@ -1,4 +1,5 @@
 version: 2
-jobs:
-    steps:
-       - run: python -m tests/unit_tests
+   - run: python -m tests/unit_tests
+       name: run tests
+          command: |
+            python -m unittest discover

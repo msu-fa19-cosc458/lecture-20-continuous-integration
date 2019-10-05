@@ -14,4 +14,4 @@ jobs:
       - run:
           name: run tests
           command: |
-            python -m ~/repo/tests/unit_tests
+            python -m ~/tests/unit_tests

@@ -10,7 +10,11 @@ jobs:
     steps:
       # Step 1: obtain repo from GitHub
       - checkout
-      # run tests
+
+      - run:
+          name: install dependencies
+          command: |
+
       - run:
           name: run tests
           command: |

@@ -14,4 +14,4 @@ jobs:
       - run:
           name: run tests
           command: |
-            python tests/unit_tests.py
+            python -m tests/unit_tests

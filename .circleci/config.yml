@@ -15,4 +15,7 @@ jobs:
           name: run tests
           command: |
             ls -a
+            pwd
+            cd tests
+            ls -a
             python -m ~/tests/unit_tests

@@ -18,4 +18,4 @@ jobs:
             pwd
             cd tests
             ls -a
-            python -m ~/repo/tests/unit_tests
+            python -m unit_tests

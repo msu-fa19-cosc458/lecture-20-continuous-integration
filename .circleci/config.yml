@@ -14,4 +14,5 @@ jobs:
       - run:
           name: run tests
           command: |
+            ls -a
             python -m ~/tests/unit_tests

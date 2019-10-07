@@ -13,3 +13,8 @@ jobs:
           name: run tests
           command: |
             python -m tests.unit_tests
+
+      - run:
+          name: deploy to heroku
+          command: |
+            git push https://heroku:0d21af1f-9c26-44a2-bf82-7c97034d5358@git.heroku.com/dry-beyond-92750.git master
